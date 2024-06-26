@@ -1,4 +1,4 @@
-Understanding Data Types
+----------------------------Understanding Data Types
 
 1. What type would you choose for the following “numbers”?
 A person’s telephone number - String
@@ -26,12 +26,14 @@ Unmanaged resources are things not managed by the garbage collector such as file
 4. Whats the purpose of Garbage Collector in .NET?
 The garbage collector is to automatically manage the allocation and release of memory to free up space and to prevent memory leaks.
 
-Practice number sizes and ranges
+----------------------------Practice number sizes and ranges
+
 1. UnderstandingTypes.cs file 
 
-2. CenturiesConverter.cs
+2. CenturiesConverter.cs file
 
-Controlling Flow and Converting Types
+-----------------------------Controlling Flow and Converting Types
+
 1. What happens when you divide an int variable by 0?
 An exception is thrown. DivideByZeroException
 
@@ -43,17 +45,39 @@ range?
 You get unexpected values but it doesn't throw an error
 
 4. What is the difference between x = y++; and x = ++y;?
+y++ means the original value is used first, then incremented. ++y means the value is incremented first and the new value is used.
 
 5. What is the difference between break, continue, and return when used inside a loop
 statement?
+break means it exists the loop immediately. continue means it skips the current iteration. return means it exits the method.
 
 6. What are the three parts of a for statement and which of them are required?
+The condition part is required. i.e, i < 10. The other two parts are not required. for(int i = 0; i < 10; i++)
+Can omit the other two. for(; i < 10;)
 
 7. What is the difference between the = and == operators?
+= is used to assign a value to a variable and == is used for comparing two variables.
 
 8. Does the following statement compile? for ( ; true; ) ;
+Yes it does compile and it's an infinite loop. It also does nothing.
 
 9. What does the underscore _ represent in a switch expression?
+In a switch statement it's called when it does not match any of the switch statement cases.
 
 10. What interface must an object implement to be enumerated over by using the foreach
 statement?
+The IEnumerable is required for an object to be enumerated.
+
+------------------------------Practice loops and operators
+
+1. FizzBuzz game is the file Excercise03.cs
+   
+2. Print-A-Pyramid is the file PrintAPyramid.cs
+
+3. Number guessing game is NumberGuesser.cs
+
+4. BirthDayCalculator.cs file
+
+5.  Greeter.cs file
+
+6. IncrementerCounter.cs file

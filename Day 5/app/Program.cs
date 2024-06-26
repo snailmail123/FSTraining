@@ -1,12 +1,11 @@
 ﻿using System;
 
-namespace IncrementCounter
+namespace HelloWorld;
+
+class Program
 {
-    class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Copy and paste each file into here to run");
-        }
+        Console.WriteLine("Copy and paste each file into here to run");
     }
 }

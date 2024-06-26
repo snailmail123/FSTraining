@@ -1,7 +1,7 @@
 /**
 using System;
 
-namespace CenturiesConverter
+namespace UnderstandingTypes
 {
     class Program
     {

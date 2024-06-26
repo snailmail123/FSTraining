@@ -1,0 +1,45 @@
+------------------Arrays and Strings
+Test your Knowledge
+1. When to use String vs. StringBuilder in C# ?
+Use a string when you don't need to frequently modify content of string.
+Use StringBuilder when you meet to do many modifications to a string. (Concatenations in a loop)
+
+2. What is the base class for all arrays in C#?
+System.Array
+
+3. How do you sort an array in C#?
+Array.Sort
+
+4. What property of an array object can be used to get the total number of elements in
+an array?
+.Length() method
+
+5. Can you store multiple data types in System.Array?
+No you can't
+
+6. What’s the difference between the System.Array.CopyTo() and System.Array.Clone()?
+CopyTo() copies the elements of the array into another existing array.
+Clone() makes a "shallow" copy of the array
+
+---------------------Practice Arrays
+
+1. CopyingAnArray.cs file
+
+2. SentenceReverser.cs
+
+3.
+
+4.
+
+5. LongestSequence.cs
+
+6. FrequencyFinder.cs
+
+----------------------Practice Strings
+1. Reversal_1.cs and Reversal_2.cs 
+
+2.
+
+3.
+
+4. URLparser.cs

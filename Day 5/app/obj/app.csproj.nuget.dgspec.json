@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\CRE\\AntraProjects\\app\\app.csproj": {}
+    "C:\\Users\\CRE\\Training\\Day 5\\app\\app.csproj": {}
   },
   "projects": {
-    "C:\\Users\\CRE\\AntraProjects\\app\\app.csproj": {
+    "C:\\Users\\CRE\\Training\\Day 5\\app\\app.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CRE\\AntraProjects\\app\\app.csproj",
+        "projectUniqueName": "C:\\Users\\CRE\\Training\\Day 5\\app\\app.csproj",
         "projectName": "app",
-        "projectPath": "C:\\Users\\CRE\\AntraProjects\\app\\app.csproj",
+        "projectPath": "C:\\Users\\CRE\\Training\\Day 5\\app\\app.csproj",
         "packagesPath": "C:\\Users\\CRE\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CRE\\AntraProjects\\app\\obj\\",
+        "outputPath": "C:\\Users\\CRE\\Training\\Day 5\\app\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\CRE\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -1,0 +1,53 @@
+04 Generics
+-----------Test your knowledge
+1. Describe the problem generics address.
+It prevents code duplication, helps with type safety and creates more maintainability/readability.
+
+2. How would you create a list of strings, using the generic List class?
+List<string> stringList = new List<string>();
+stringList.Add("Hello");
+stringList.Add("World");
+
+3. How many generic type parameters does the Dictionary class have?
+Just two. Dictionary<int, string> dict 
+
+4. True/False. When a generic class has multiple type parameters, they must all match.
+False.
+public class Pair<T1, T2>
+{
+    public T1 First { get; set; }
+    public T2 Second { get; set; }
+
+    public Pair(T1 first, T2 second)
+    {
+        First = first;
+        Second = second;
+    }
+}
+
+var pair1 = new Pair<int, string>(1, "One");
+var pair2 = new Pair<string, double>("Two", 2.0);
+var pair3 = new Pair<DateTime, bool>(DateTime.Now, true);
+
+
+5. What method is used to add items to a List object?
+The .Add() method.
+
+6. Name two methods that cause items to be removed from a List.
+.Remove() and .Clear()
+
+7. How do you indicate that a class has a generic type parameter?
+By specifying the type parameter in the angle brackets <>
+
+8. True/False. Generic classes can only have one generic type parameter.
+False.  public class Pair<T1, T2>
+
+9. True/False. Generic type constraints limit what can be used for the generic type.
+True. 
+public class Manager<T> where T : Employee
+{
+
+}
+
+10. True/False. Constraints let you use the methods of the thing you are constraining to.
+True. 
